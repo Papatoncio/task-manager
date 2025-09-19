@@ -1,0 +1,8 @@
+package com.papatoncio.taskapi.common;
+
+public enum UserRole {
+    ROLE_USER,
+    ROLE_ADMIN,
+    ROLE_SUPERUSER
+}
+

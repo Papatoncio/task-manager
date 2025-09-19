@@ -1,0 +1,17 @@
+${AnsiColor.BRIGHT_GREEN}      ___      ${AnsiColor.BRIGHT_RED}     ___
+${AnsiColor.BRIGHT_GREEN}     /\  \     ${AnsiColor.BRIGHT_RED}    /\__\
+${AnsiColor.BRIGHT_GREEN}     \:\  \    ${AnsiColor.BRIGHT_RED}   /::|  |
+${AnsiColor.BRIGHT_GREEN}      \:\  \   ${AnsiColor.BRIGHT_RED}  /:|:|  |
+${AnsiColor.BRIGHT_GREEN}      /::\  \  ${AnsiColor.BRIGHT_RED} /:/|:|__|__
+${AnsiColor.BRIGHT_GREEN}     /:/\:\__\ ${AnsiColor.BRIGHT_RED}/:/ |::::\__\
+${AnsiColor.BRIGHT_GREEN}    /:/  \/__/ ${AnsiColor.BRIGHT_RED}\/__/~~/:/  /
+${AnsiColor.BRIGHT_GREEN}   /:/  /      ${AnsiColor.BRIGHT_RED}      /:/  /
+${AnsiColor.BRIGHT_GREEN}   \/__/       ${AnsiColor.BRIGHT_RED}     /:/  /
+${AnsiColor.BRIGHT_GREEN}               ${AnsiColor.BRIGHT_RED}    /:/  /
+${AnsiColor.BRIGHT_GREEN}               ${AnsiColor.BRIGHT_RED}    \/__/
+
+${AnsiColor.BRIGHT_WHITE}========================================
+${AnsiColor.BRIGHT_WHITE}     TaskManager - Gestor de tareas
+${AnsiColor.BRIGHT_WHITE}          v${spring-boot.version}
+${AnsiColor.BRIGHT_WHITE}========================================
+${AnsiColor.BRIGHT_WHITE}       Bienvenido a la aplicación
