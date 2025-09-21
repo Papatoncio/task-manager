@@ -22,7 +22,7 @@ public class SecurityUtil {
 
     public static Long getUserId() {
         CustomUserDetails userDetails = getUserDetails();
-        return userDetails != null ? userDetails.getId() : null;
+        return userDetails != null ? userDetails.getId() : 0;
     }
 
     public static String getUsername() {

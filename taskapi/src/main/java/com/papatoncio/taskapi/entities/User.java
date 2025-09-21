@@ -12,7 +12,7 @@ import java.util.Set;
 @Table(name = "users")
 @Getter
 @Setter
-@ToString(exclude = {"password", "passwordHistory", "roles"})
+@ToString(exclude = {"password", "passwordHistory", "roles", "secret2FA"})
 @Accessors(chain = true)
 @Builder
 @NoArgsConstructor
@@ -38,6 +38,12 @@ public class User {
     @Column(nullable = false, updatable = false)
     private LocalDateTime createdAt;
 
+    @Column(nullable = true)
+    private String secret2FA;
+
+    @Column(nullable = true)
+    private boolean twoFactorEnabled;
+
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<UserPasswordHistory> passwordHistory;
 
@@ -53,5 +59,6 @@ public class User {
     protected void onCreate() {
         this.active = true;
         this.createdAt = LocalDateTime.now();
+        this.twoFactorEnabled = false;
     }
 }
